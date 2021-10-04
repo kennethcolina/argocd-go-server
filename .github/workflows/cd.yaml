@@ -16,4 +16,4 @@ jobs:
           username: kinnethy
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: kinnethy/go-server
-          tags: $ {{ github.sha }}, latest
+          tags: ${{ github.sha }}, latest

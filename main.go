@@ -5,7 +5,7 @@ import "net/http"
 func main() {
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("<h1>Hellow Go App!</h1>"))
+		w.Write([]byte("<h1>Hellow Go Server!</h1>"))
 	})
 	http.ListenAndServe(":8080", nil)
 }

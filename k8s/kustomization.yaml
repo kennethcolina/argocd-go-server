@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: kinnethy/go-server
-  newTag: 2e4b80c4e5461e8c0d1b3154fc9023990903b3f0
+  newTag: 4ad8ebfea848568607655c5373760137f3aea5f2
